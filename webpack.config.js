@@ -12,7 +12,7 @@ const config = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '../../../'
+        publicPath: '../../../',
         filename: path.join('styles/mobile/', projName, '[name].css')
     },
     module: {
